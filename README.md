@@ -12,5 +12,9 @@ const number = useState(0)[0];
 useEffect(sayHello, [number])
 ```
 
+# React Context(Provider)
+props, state 이외 상태를 관리하는 속성, props top down 방식과 다르게 Tree 구조내에서 전역 변수처럼 변경 가능     
+
 # Apollo
 - GraphQL Client Package 
+- ApolloProvider 설정하고 apollo chrome plugin을 설치하면 plugin에서 모든 Query, Mutaion, Subscription을 볼수 있다.

@@ -1,1 +1,2 @@
-export default () => "Auth"
+import Auth from "../Components/Auth"
+export default Auth
